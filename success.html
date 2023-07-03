@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Withdraw Payment Success</title>
+    <style>
+        body {
+            background-color: #ffffffeb;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 500px;
+            text-align: center;
+        }
+
+        .success-animation {
+            width: 250px;
+            height: 200px;
+            margin:  auto;
+            background-image: url("success.gif");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 32px;
+            margin-top: 30px;
+        }
+
+        p {
+            color: #666;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .continue-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #00ccff;
+            color: #fff;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .continue-button:hover {
+            background-color: #7a00ffdf;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="success-animation"></div>
+        <h1>Payment Withdrawn Successfully</h1>
+        <p>Thank you for your payment withdrawal request. Your request has been processed successfully.</p>
+        <a href="index.html" class="continue-button">Continue</a>
+    </div>
+</body>
+</html>
